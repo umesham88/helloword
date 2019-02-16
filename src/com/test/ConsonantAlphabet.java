@@ -12,6 +12,7 @@ public class ConsonantAlphabet {
 	public static String getConsonentAlphabet(final String inputValue) {
 		String ouputValue = "";
 
+		String use=null;
 		char[] chr = inputValue.toCharArray();
 		int length = chr.length;
 		for (int i = 0; i < length; i++) {
